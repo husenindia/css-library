@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- JQUERY 1.11.0 LIBRARY FILE -->
+<script src="js/jquery.min.js"></script>
+<!-- MODAL JS AND CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/media.css" rel="stylesheet" type="text/css" />
+<style>
+pre{ font-size:16px; line-height:20px;}
+table td{ border:1px solid #CCC; vertical-align:top; padding:10px 15px;}
+h2{ margin-top:0; font-weight: bold; font-size: 20px; margin-bottom:20px; }
+</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0">
+<tr>
+
+<td>
+
+
+<h2>
+All Styling
+</h2>
+<pre>
+.breakword, 
+.longword, 
+.wordbreak
+{ word-wrap: break-word; word-break: break-all; }
+
+.show{ display: block !important; }
+.hide{ display: none !important; }
+.w100imp{ width: 100% !important; }
+
+.fleft{ float: left; }
+.fright{ float: right; }
+.fnone{ float: none; clear: both; }
+
+.hautoimp{ height: auto !important; }
+.hauto{ height: auto; }
+.wautoimp{ width: auto !important; }
+.wauto{ width: auto; }
+
+.flwrap { display: flex; flex-wrap: wrap; }
+.flmid{ display: flex; align-items:center }
+.flmidh{ display: flex; justify-content:center }
+.fltop{ display: flex; align-items:top }
+.flbottom{ display: flex; align-items:top }
+.flmidall{ display: flex; align-items: center; 
+             justify-content: center; }
+.fullspace{ justify-content: space-between; }
+.evenspace{ justify-content: space-around; }
+
+.blk{ display: block; }
+.inblk{ display: inline-block; }
+.flex{ display: flex; }
+
+.txtleft{ text-align: left; }
+.txtright{ text-align: right; }
+.txtmid{ text-align: center; }
+
+.prel{ position: relative; }
+.pabs{ position: absolute; }
+.pfix{ position: fixed; }
+.psticky{ position: sticky; }
+.pstatic{ position: static; }
+
+.pmid{ position: absolute; top: 0; 
+        left: 0; bottom: 0; right: 0; 
+        margin: auto; }
+
+.lowercase { text-transform: lowercase; }
+.uppercase { text-transform: uppercase; }
+.capitalize { text-transform: capitalize; }
+
+
+</pre>
+</td>
+	
+<td>
+
+<div class="">
+<div>
+<h2>
+Structure
+</h2>
+<pre>
+.c1{ max-width: 8.333333% }
+.c2{ max-width: 16.666667% }
+.c3{ max-width: 25% }
+.c4{ max-width: 33.333333% }
+.c5{ max-width: 41.666667% }
+.c6{ max-width: 50% }
+.c7{ max-width: 58.333333% }
+.c8{ max-width: 66.666667% }
+.c9{ max-width: 75% }
+.c10{ max-width: 83.333333% }
+.c11{ max-width: 91.666667% }
+.c12{ max-width: 100% }
+
+.cs1{ margin-left: 8.333333% }
+.cs2{ margin-left: 16.666667% }
+.cs3{ margin-left: 25% }
+.cs4{ margin-left: 33.333333% }
+.cs5{ margin-left: 41.666667% }
+.cs6{ margin-left: 50% }
+.cs7{ margin-left: 58.333333% }
+.cs8{ margin-left: 66.666667% }
+.cs9{ margin-left: 75% }
+.cs10{ margin-left: 83.333333% }
+.cs11{ margin-left: 91.666667% }
+</pre>
+</div>
+<div class="mt50">
+<h2>
+Width
+</h2>
+<pre>
+.w1{ max-width: 1%; }
+.w2{ max-width: 2%;}
+.w3{ max-width: 3%;}
+.w4{ max-width: 4%;}
+....
+....
+....
+w100{ max-width: 100%;}
+</pre>
+</div>
+</div>
+</td>
+<td>
+<h2>
+Font styling
+</h2>
+<pre>
+.font10{ font-size:10px }
+.font11{ font-size:11px }
+.font12{ font-size:12px }
+.font13{ font-size:13px }
+.font14{ font-size:14px }
+.font15{ font-size:15px }
+.font16{ font-size:16px }
+.font17{ font-size:17px }
+.font18{ font-size:18px }
+.font19{ font-size:19px }
+.font20{ font-size:20px }
+.font22{ font-size:22px }
+.font24{ font-size:24px }
+.font26{ font-size:26px }
+.font28{ font-size:28px }
+.font20{ font-size:30px }
+.font32{ font-size:32px }
+.font34{ font-size:34px }
+.font36{ font-size:36px }
+.font38{ font-size:38px }
+.font40{ font-size:40px }
+
+
+
+.lh14{ line-height: 14px } 
+.lh16{ line-height: 16px }
+.lh18{ line-height: 18px }
+.lh20{ line-height: 20px }
+.lh22{ line-height: 22px }
+.lh24{ line-height: 24px }
+.lh26{ line-height: 26px }
+.lh28{ line-height: 28px }
+.lh30{ line-height: 30px }
+.lh32{ line-height: 32px }
+.lh34{ line-height: 34px }
+.lh36{ line-height: 36px }
+.lh38{ line-height: 38px }
+.lh40{ line-height: 40px }
+</pre>
+</td>
+	<td>
+		<h2>
+			Ordering
+		</h2>
+<pre>
+.ord1, 
+.ordfirst{ order: 1; }
+.ord2, 
+.ordmid{ order: 2; }
+.ord3, 
+.ordlast{ order: 3; }
+.ord4{ order: 4; }
+.ord5{ order: 5; }
+.ord6{ order: 6; }
+.ord7{ order: 7; }
+.ord8{ order: 8; }
+.ord9{ order: 9; }
+.ord10{ order: 10; }
+</pre>
+		<br />
+		<h2>
+			Opacity
+		</h2>
+<pre>
+.op10{ opacity: 0.1; }
+.op20{ opacity: 0.2; }
+.op30{ opacity: 0.3; }
+.op40{ opacity: 0.4; }
+.op50{ opacity: 0.5; }
+.op60{ opacity: 0.6; }
+.op70{ opacity: 0.7; }
+.op80{ opacity: 0.8; }
+.op90{ opacity: 0.9; }
+.op100{ opacity: 1.0; }
+</pre>
+
+
+		
+	</td>
+	<td>
+		<h2>
+			Paddings
+		</h2>
+		<pre>
+.pt1{ padding-top: 1px; }
+...
+.pt30{ padding-top: 30px; }
+.pt35{ padding-top: 35px; }
+.pt40{ padding-top: 40px; }
+.pt45{ padding-top: 45px; }
+.pt50{ padding-top: 50px; }
+.pt55{ padding-top: 55px; }
+.pt60{ padding-top: 60px; }
+
+.pb1{ padding-bottom: 1px; }
+...
+.pb30{ padding-bottom:30px }
+.pb35{ padding-bottom:35px }
+.pb40{ padding-bottom:40px }
+.pb45{ padding-bottom:45px }
+.pb50{ padding-bottom:50px }
+.pb55{ padding-bottom:55px }
+.pb60{ padding-bottom:60px }
+
+.pr1{ padding-right: 1px; }
+...
+.pr30{ padding-right: 30px; }
+.pr35{ padding-right: 35px; }
+.pr40{ padding-right: 40px; }
+.pr45{ padding-right: 45px; }
+.pr50{ padding-right: 50px; }
+.pr55{ padding-right: 55px; }
+.pr60{ padding-right: 60px; }
+
+.pl1{ padding-left: 1px; }
+...
+.pl30{ padding-left:30px }
+.pl35{ padding-left:35px }
+.pl40{ padding-left:40px }
+.pl45{ padding-left:45px }
+.pl50{ padding-left:50px }
+.pl55{ padding-left:55px }
+.pl60{ padding-left:60px }
+
+</pre>
+	</td>
+    <td>
+        <br /><br />
+<pre>
+.plr1{ padding-left:1px; padding-right:1px; }
+...
+.plr30{ padding-left:30px; padding-right:30px; }
+.plr35{ padding-left:35px; padding-right:35px; }
+.plr40{ padding-left:40px; padding-right:40px; }
+.plr45{ padding-left:45px; padding-right:45px; }
+.plr50{ padding-left:50px; padding-right:50px; }
+.plr55{ padding-left:55px; padding-right:55px; }
+.plr60{ padding-left:60px; padding-right:60px; }
+
+.ptb1{ padding-left:1px; padding-right:1px; }
+...
+.ptb30{ padding-top:30px; padding-bottom:30px; }
+.ptb35{ padding-top:35px; padding-bottom:35px; }
+.ptb40{ padding-top:40px; padding-bottom:40px; }
+.ptb45{ padding-top:45px; padding-bottom:45px; }
+.ptb50{ padding-top:50px; padding-bottom:50px; }
+.ptb55{ padding-top:55px; padding-bottom:55px; }
+.ptb60{ padding-top:60px; padding-bottom:60px; }
+</pre>
+    </td>
+</tr>
+
+<tr>
+<td>
+<h2>Margins</h2>
+<pre>
+.mlr1{ margin-left:1px; margin-right:1px; }
+...
+.mlr30{ margin-left:30px; margin-right:30px; }
+.mlr35{ margin-left:35px; margin-right:35px; }
+.mlr40{ margin-left:40px; margin-right:40px; }
+.mlr45{ margin-left:45px; margin-right:45px; }
+.mlr50{ margin-left:50px; margin-right:50px; }
+.mlr55{ margin-left:55px; margin-right:55px; }
+.mlr60{ margin-left:60px; margin-right:60px; }
+
+.mtb1{ margin-left:1px; margin-right:1px; }
+...
+.mtb30{ margin-top:30px; margin-bottom:30px; }
+.mtb35{ margin-top:35px; margin-bottom:35px; }
+.mtb40{ margin-top:40px; margin-bottom:40px; }
+.mtb45{ margin-top:45px; margin-bottom:45px; }
+.mtb50{ margin-top:50px; margin-bottom:50px; }
+.mtb55{ margin-top:55px; margin-bottom:55px; }
+.mtb60{ margin-top:60px; margin-bottom:60px; }
+</pre>
+
+</td>
+<td>
+<h2>Margins</h2>
+<pre>
+.mt1{ margin-top:1px; }
+...
+.mt30{ margin-top:30px; }
+.mt35{ margin-top:35px; }
+.mt40{ margin-top:40px; }
+.mt45{ margin-top:45px; }
+.mt50{ margin-top:50px; }
+.mt55{ margin-top:55px; }
+.mt60{ margin-top:60px; }
+</pre>
+</td>
+<td>
+<h2>Margins</h2>
+<pre>
+.mb1{ margin-bottom:1px }
+...
+.mb30{ margin-bottom:30px }
+.mb35{ margin-bottom:35px }
+.mb40{ margin-bottom:40px }
+.mb45{ margin-bottom:45px }
+.mb50{ margin-bottom:50px }
+.mb55{ margin-bottom:55px }
+.mb60{ margin-bottom:60px }
+</pre>
+</td>
+<td>
+<h2>Margins</h2>
+<pre>
+.mr1{ margin-right:1px }
+...
+.mr30{ margin-right:30px }
+.mr35{ margin-right:35px }
+.mr40{ margin-right:40px }
+.mr45{ margin-right:45px }
+.mr50{ margin-right:50px }
+.mr55{ margin-right:55px }
+.mr60{ margin-right:60px }
+
+</pre>
+</td>
+<td>
+<h2>Margins</h2>
+<pre>
+.ml1{ margin-left:1px }
+...
+.ml30{ margin-left:30px }
+.ml35{ margin-left:35px }
+.ml40{ margin-left:40px }
+.ml45{ margin-left:45px }
+.ml50{ margin-left:50px }
+.ml55{ margin-left:55px }
+.ml60{ margin-left:60px }
+</pre>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

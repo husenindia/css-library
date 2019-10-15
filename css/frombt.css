@@ -1,0 +1,59 @@
+﻿@media (min-width: 1200px) {
+.container { max-width: 1140px; }
+}
+
+@media (min-width: 992px) {
+.container { max-width: 960px; }
+}
+
+@media (min-width: 768px) {
+.container { max-width: 720px; }
+}
+
+@media (min-width: 576px) {
+.container { max-width: 540px; }
+}
+
+
+/* SOME USEFUL STYLES FROM DWO ********************************/
+html .container { max-width: 600px; margin: auto; }
+::-webkit-input-placeholder { color: #b7b7b7; }
+::-moz-placeholder { color: #b7b7b7; opacity: 1; }
+:-ms-input-placeholder { color: #b7b7b7; }
+:-moz-placeholder { color: #b7b7b7; }
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; outline: 0; padding: 0; vertical-align: baseline; -webkit-overflow-scrolling: touch; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #060628; font-weight: 400; }
+html, body, body * { font-family: 'Source Sans Pro', sans-serif; }
+a { text-decoration: none; color: #060628; }
+a:focus { outline: none; }
+a:hover, a:active { outline: 0; }
+p, h1, h2, h3, h4, h5, h6, ul, ol, dd, table, fieldset, address { margin: 0; padding: 0; }
+label, h1, h2, h3, h4, h5, h6, dt, th { font-weight: 400; }
+table { border-collapse: separate; border-spacing: 0; width: 100%; empty-cells: show; border: none; }
+table table { margin: 0; }
+th, td { border: none; padding: 5px 10px; }
+caption, th, td { font-weight: 400; }
+ul, ol { list-style: none; }
+button, input, select, textarea { margin: 0; vertical-align: baseline; background-color: transparent; border: none; }
+input[type="checkbox"] { -webkit-appearance: checkbox; }
+input[type="radio"] { -webkit-appearance: radio; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; max-width: 100%; min-width: 100%; max-height: 200px; min-height: 70px; padding: 8px; background-color: white; }
+.noresize { resize: none !important; }
+body .regular { font-weight: 400; }
+body .medium { font-weight: 600; }
+b, strong, body .bold { font-weight: 700; }
+/* NEWLY ADDED*/
+body .heightauto { min-height: 0 !important; height: auto !important; }
+body .flwrap { display: flex; flex-wrap: wrap; }
+body .uppercase { text-transform: uppercase; }
+body .bgtransparent { background: none !important; }
+body .h100imp { height: 100% !important; }
+body .pdlr10 { padding-left:10px; padding-right:10px; }
+body .pdlr10 { padding-left:15px; padding-right:15px; }
+body .pdlr20 { padding-left:20px; padding-right:20px; }
+body .pdlr25 { padding-left:25px; padding-right:25px; }
+body .pdlr30 { padding-left:30px; padding-right:30px; }
+body .pdlr25 { padding-left:35px; padding-right:35px; }
+body .pdlr30 { padding-left:40px; padding-right:40px; }
+/* ENDED*/
